@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="evox" fetch="https://github.com/Evolution-X-Devices" clone-depth="1" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" clone-depth="1" />
     <remote name="Sadik084" fetch="https://github.com/Sadik084" clone-depth="1" />
 
     <!-- Removals -->
@@ -10,15 +10,15 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/samsung/a01q" name="android_device_samsung_a01q" remote="Sadik084" revision="evox-udc" />
+    <project path="device/samsung/a01q" name="android_device_samsung_a01q" remote="Sadik084" revision="lineage-20" />
 
     <!-- Kernel -->
-    <project path="kernel/samsung/a01q" name="android_kernel_samsung_a01q" remote="Sadik084" revision="A14" />
+    <project path="kernel/samsung/a01q" name="android_kernel_samsung_a01q" remote="Sadik084" revision="KernelSU" />
 
     <!-- Vendor -->
     <project path="vendor/samsung/a01q" name="proprietary_vendor_samsung_a01q" remote="Sadik084" revision="13-64" />
 
     <!-- Hardware -->
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="evox" revision="udc" />
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage" revision="lineage-20" />
 
 </manifest>
